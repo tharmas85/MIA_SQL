@@ -1,0 +1,16 @@
+﻿<Window x:Class="MIA_SQL.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MIA_SQL"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid x:Name="grd_main">
+        <Button x:Name="btn_ejecutar" Content="Ejecutar" HorizontalAlignment="Left" Margin="79,91,0,0" VerticalAlignment="Top" Width="75" Click="btn_ejecutar_Click"/>
+        <Label x:Name="lbl_resultado" Content="Label" HorizontalAlignment="Left" Margin="79,130,0,0" VerticalAlignment="Top"/>
+        <DatePicker x:Name="dtp_fcinicio" HorizontalAlignment="Left" Margin="79,31,0,0" VerticalAlignment="Top"/>
+        <DatePicker x:Name="dtp_fcfin" HorizontalAlignment="Left" Margin="269,31,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
